@@ -1,0 +1,206 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/* ubuntu-mono-regular - greek_greek-ext_latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-regular.svg#UbuntuMono') format('svg'); /* Legacy iOS */
+  }
+  
+  /* ubuntu-mono-italic - greek_greek-ext_latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-italic.svg#UbuntuMono') format('svg'); /* Legacy iOS */
+  }
+  
+  /* ubuntu-mono-700 - greek_greek-ext_latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700.svg#UbuntuMono') format('svg'); /* Legacy iOS */
+  }
+  
+  /* ubuntu-mono-700italic - greek_greek-ext_latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Ubuntu Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.woff') format('woff'), /* Modern Browsers */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/ubuntu-mono-v15-greek_greek-ext_latin_latin-ext-700italic.svg#UbuntuMono') format('svg'); /* Legacy iOS */
+  }
+
+  /* Heldane */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Heldane';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/test-heldane-text-regular.woff2') format('woff2'); /* Super Modern Browsers */
+  }
+
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Heldane';
+    font-style: bold;
+    font-weight: 700;
+    src: url('fonts/test-heldane-text-bold.woff2') format('woff2'); /* Super Modern Browsers */
+  }
+
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Geograph';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/test-geograph-regular.woff2') format('woff2'); /* Super Modern Browsers */
+  }
+
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Geograph';
+    font-style: medium;
+    font-weight: 700;
+    src: url('fonts/test-geograph-medium.woff2') format('woff2'); /* Super Modern Browsers */
+  }
+
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'SamFont';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/SamFont.ttf') format('truetype'); /* Super Modern Browsers */
+  }
+
+
+a{
+    color: #0049A6; //#F9FAF5; //#0D68A4; //#2688C4; //#466FA6;
+    &:hover {
+        color: #E41728; //#12A661; //#E81A25; //#29B68F; //#11BF8E; //#BF4545;
+        text-decoration: none;
+      }
+}
+
+a:visited {
+    color: #A29A98; //#9DB3D8; //#79A0C9;
+    &:hover {
+        color: #E41728; //#09B488; //#11BF8E; //#DEE3EF; 
+        text-decoration: none;
+      }
+}
+
+body{
+    background-color: #F3AC29; //#F29F05; //#F9FAF5; //<---LIVITY WHITE |            //#E0E2E1; //#FBFBF9;
+}
+
+.site-header{
+    background-color: #F3AC29; //#F29F05;// #F28B50; //<---LIVITY ORANGE             //#0D68A4; //#499F3B; //#1C1818;
+    border-top: #F3AC29; //#F29F05; //#F28B50; //<---LIVITY ORANGE                   //#0D68A4; //#499F3B; //#1C1818;
+    border-bottom: #F3AC29; //#F29F05;// #F28B50; //<---LIVITY ORANGE                //#0D68A4; //#499F3B; //#1C1818;
+  }
+
+.site-footer{
+  background-color: #F3AC29; //#F29F05;// #F28B50; //<---LIVITY ORANGE             //#0D68A4; //#499F3B; //#1C1818;
+  border-top: #F3AC29; //#F29F05; //#F28B50; //<---LIVITY ORANGE                   //#0D68A4; //#499F3B; //#1C1818;
+  border-bottom: #F3AC29; //#F29F05;// #F28B50; //<---LIVITY ORANGE                //#0D68A4; //#499F3B; //#1C1818;
+}
+
+.site-title{
+  color:  #F9FAF5 !important; //#FBFBF9 !important; //#35281C !important;//blacker
+  font-family: 'SamFont';
+  //font-style: medium;
+  //font-weight: 700;
+}
+
+.page-link{
+    color: black; //#494949 !important; //<---LIVITY           //#F9FAF5 !important; //#FBFBF9 !important; //#35281C !important;//blacker
+    &:hover {
+        //background-color:  #12A661; //#12A661; //#E81A25; //#29B68F; //#11BF8E; //#BF4545;
+        text-decoration: none;
+        color:  #F9FAF5 !important;
+      }
+}
+
+.responsive-youtube{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsive-youtube iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.centre{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.responsive-youtube-half{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsive-youtube-half iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  position: absolute;
+}
+
+.responsive-image{
+  overflow: visible;
+  padding-bottom: 65%;
+  position: relative;
+  height: 0;
+}
+
+.responsive-image img{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+// Green: #29B68F #09B488
+// Orange: #F58E52  
+
+// 
