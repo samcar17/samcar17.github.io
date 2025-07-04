@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Newsletter
-permalink: /newsletter1/
+permalink: /newsletter/
 ---
 
 *NOTE: This newsletter is currently inactive. I have plans to resurrect it once I have more time for writing!*
